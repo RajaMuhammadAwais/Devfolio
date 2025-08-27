@@ -22,12 +22,15 @@ export function HeroSection() {
       
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 animate-fade-in">
         <div className="mb-6">
-          <h1 className="text-5xl md:text-7xl font-bold mb-4" data-testid="hero-title">
-            <span className="gradient-text">DevOps Engineer</span>
+          <h1 className="text-3xl md:text-4xl font-light text-foreground mb-2" data-testid="hero-name">
+            Raja Muhammad Awais
           </h1>
-          <h2 className="text-2xl md:text-3xl text-muted-foreground mb-6" data-testid="hero-subtitle">
-            Cloud, Automation & CI/CD Specialist
+          <h2 className="text-5xl md:text-7xl font-bold mb-4" data-testid="hero-title">
+            <span className="gradient-text">DevOps Engineer</span>
           </h2>
+          <h3 className="text-2xl md:text-3xl text-muted-foreground mb-6" data-testid="hero-subtitle">
+            Cloud, Automation & CI/CD Specialist
+          </h3>
         </div>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed" data-testid="hero-description">
