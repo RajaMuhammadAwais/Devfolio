@@ -15,6 +15,7 @@ export function Navigation({ activeSection }: NavigationProps) {
     { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
     { href: "#experience", label: "Experience" },
+    { href: "#mcp-features", label: "AI Features" },
     { href: "#contact", label: "Contact" },
   ];
 

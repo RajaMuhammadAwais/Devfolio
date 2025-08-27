@@ -5,6 +5,7 @@ import { AboutSection } from "@/components/sections/about";
 import { SkillsSection } from "@/components/sections/skills";
 import { ProjectsSection } from "@/components/sections/projects";
 import { ExperienceSection } from "@/components/sections/experience";
+import { MCPFeaturesSection } from "@/components/sections/mcp-features";
 import { GitHubSection } from "@/components/sections/github";
 import { ContactSection } from "@/components/sections/contact";
 
@@ -17,7 +18,7 @@ export default function Portfolio() {
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'DevOps Engineer specializing in AWS, Kubernetes, Terraform, CI/CD pipelines, and cloud infrastructure automation.');
+      metaDescription.setAttribute('content', 'DevOps Engineer specializing in AWS, Kubernetes, Terraform, CI/CD pipelines, cloud infrastructure automation, and MCP-powered AI features for intelligent DevOps workflows.');
     }
 
     // Intersection Observer for active section tracking
@@ -67,6 +68,7 @@ export default function Portfolio() {
         <SkillsSection />
         <ProjectsSection />
         <ExperienceSection />
+        <MCPFeaturesSection />
         <GitHubSection />
         <ContactSection />
       </main>
